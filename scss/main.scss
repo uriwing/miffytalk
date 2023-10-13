@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+@import './varibles_mixin.scss';
+@import './reset.scss';
+@import './index.scss';
+@import './chat_list.scss';
+@import './chat.scss';
+
+//sass --watch scss/main.scss css/style.css

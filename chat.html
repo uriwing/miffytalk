@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>채팅화면</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">  
+</head>
+<body>
+  <div class="chat">
+    <header class="header">
+      <div class="chat_title">
+        <div class="preview_column">
+          <figure class="preview_pic">
+            <img src="img/pic1.png" width="50px" height="16px">
+          </figure>
+        </div>
+        <div class="preview_column chat_headerTitle">
+          <div>
+            <h4 class="preview_nick chat_title">채팅방 이름</h4>
+            <p class="preview_msg chat_num">
+              <i class="fa-solid fa-user"></i>
+              <span>3</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="header_menu">
+        <span><i class="fa-solid fa-magnifying-glass fa-fw"></i></span>
+        <span><i class="fa-solid fa-microphone fa-fw"></i></span>
+        <a href="chatList.html"><span><i class="fa-solid fa-bars fa-fw"></i></span></a>
+      </div>
+    </header>
+    <main class="bubble_container">
+      <div class="bubble_preview">
+        <div class="preview_column">
+          <figure class="preview_pic">
+            <img src="img/pic1.png">
+          </figure>
+        </div>
+        <div class="preview_column bubble_wrap">
+          <h4 class="preview_nick">미피</h4>
+          <div class="buuble_content">
+            <p class="bubble">
+              Lorem Ipsum
+            </p>
+            <span class="bubble_time">오후 11:49</span>
+          </div>  
+        </div>
+      </div>
+
+      <div class="bubble_preview">
+        <div class="preview_column">
+          <figure class="preview_pic">
+            <img src="img/pic1.png">
+          </figure>
+        </div>
+        <div class="preview_column bubble_wrap">
+          <h4 class="preview_nick">미피</h4>
+          <div class="buuble_content">
+            <p class="bubble">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry!
+            </p>
+            <span class="bubble_time">오후 11:50</span>
+          </div>  
+        </div>
+      </div>
+
+      <div class="bubble_preview">
+        <div class="preview_column">
+          <figure class="preview_pic">
+            <img src="img/pic1.png">
+          </figure>
+        </div>
+        <div class="preview_column bubble_wrap">
+          <h4 class="preview_nick">미피</h4>
+          <div class="buuble_content">
+            <p class="bubble">
+              🐰
+            </p>
+            <span class="bubble_time">오후 11:49</span>
+          </div>  
+        </div>
+      </div>
+
+      <div class="bubble_preview my">
+        <div class="preview_column">
+          <figure class="preview_pic">
+            <img src="img/pic1.png">
+          </figure>
+        </div>
+        <div class="preview_column bubble_wrap">
+          <h4 class="preview_nick">미피</h4>
+          <div class="buuble_content">
+            <p class="bubble">
+              What is Lorem Ipsum?
+            </p>
+            <span class="bubble_time">오후 11:49</span>
+          </div>  
+        </div>
+      </div>
+
+      <div class="bubble_preview">
+        <div class="preview_column">
+          <figure class="preview_pic">
+            <img src="img/pic1.png">
+          </figure>
+        </div>
+        <div class="preview_column bubble_wrap">
+          <h4 class="preview_nick">미피</h4>
+          <div class="buuble_content">
+            <p class="bubble">
+              bye bye
+            </p>
+            <span class="bubble_time">오후 11:49</span>
+          </div>  
+        </div>
+      </div>
+
+     
+    </main>
+
+    <form action="" class="chat_form">
+      <div class="chat_formFiled">
+        <textarea class="chat_formMsg"></textarea>
+      </div>
+      <div class="chat_formUtil">
+        <div class="chat_formUtilPlugin">
+          <i class="fa-regular fa-face-smile"></i>
+          <i class="fa-solid fa-paperclip"></i>
+          <i class="fa-solid fa-crop-simple"></i>
+        </div>
+        <div class="chat_formUtilSubmit">
+          <input type="submit" value="전송" class="chat_formBtn">
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
